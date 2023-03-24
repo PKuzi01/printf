@@ -1,15 +1,16 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <unistd.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
 
 /**
-* struct convert - structure for functions and symbols
+* struct convert - defines a structure for symbols and functions
 *
 * @sym: operator
-* @f: accompanying/associated function
+* @f: associating function
 */
 struct convert
 {
@@ -41,5 +42,6 @@ char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
 int print_unsgined_number(unsigned int);
+
 
 #endif
