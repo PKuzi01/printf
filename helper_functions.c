@@ -10,8 +10,7 @@
  */
 char *rev_string(char *s)
 {
-	int x;
-	int head;
+	int x, y;
 	char tmp;
 	char *dest;
 
